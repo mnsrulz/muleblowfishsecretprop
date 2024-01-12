@@ -5,10 +5,10 @@ Usage
 
 To encrypt
 ```
-docker run test encrypt secure123 "hello string"
+docker run ghcr.io/mnsrulz/muleblowfishsecretprop:latest encrypt secure123 "hello string"
 ```
 
 To decrypt
 ```
-docker run test decrypt secure123 "2yKMDTjUqAE6vzT99sfOMQ=="
+docker run ghcr.io/mnsrulz/muleblowfishsecretprop:latest decrypt secure123 "2yKMDTjUqAE6vzT99sfOMQ=="
 ```
